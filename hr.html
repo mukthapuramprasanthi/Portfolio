@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio | Mukthapuram Prasanthi</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+  #intro, #home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #intro {
+    background: linear-gradient(135deg, #9140ff 0%, #f5d8ff 100%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  #home {
+    display: none;
+    background: white;
+    color: #222;
+    padding: 40px;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #9140ff;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .name {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .objective {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<!-- Intro Screen -->
+<div id="intro">
+  <div>Welcome to</div>
+  <div>Mukthapuram Prasanthi Portfolio</div>
+</div>
+
+<!-- Home Page -->
+<div id="home">
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <div class="name">Mukthapuram Prasanthi</div>
+  
+  <div class="objective">
+    Highly motivated IT graduate with proficiency in Java, web development, and problem-solving. Seeking a role where I can apply my knowledge and grow within a dynamic tech company. Passionate about learning new technologies and continuously improving technical skills.
+  </div>
+</div>
+
+<script>
+  setTimeout(() => {
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('home').style.display = 'block';
+  }, 4000);
+</script>
+
+</body>
+</html>

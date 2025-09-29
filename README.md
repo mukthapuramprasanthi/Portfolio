@@ -27,5 +27,5 @@
 > - Contact section with direct email link
 >
 > ## 📫 Contact Me
-> - Email: [youremail@gmail.com](mailto:youremail@gmail.com)
+> - Email: [prasanthiprashu734@gmail.com]
 > - GitHub: [mukthapuramprasanthi](https://github.com/mukthapuramprasanthi)
